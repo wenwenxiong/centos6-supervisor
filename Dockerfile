@@ -1,5 +1,5 @@
-FROM centos:centos6
-MAINTAINER Alex
+FROM centos:6.9
+MAINTAINER xiongww
 
 RUN yum -y update && \
 	yum -y install python-setuptools && \
